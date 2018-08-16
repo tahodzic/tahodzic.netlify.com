@@ -99,4 +99,4 @@ export const IndexQuery = graphql`
       }
     }
   }
-`;
+`
