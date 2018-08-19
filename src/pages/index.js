@@ -48,7 +48,7 @@ const IndexPage = ({
       <Hero>
         <h1>Damir Hodzic <a href="https://github.com/tahodzic" rel="me"><i class="fa fa-github fa-1x"></i></a></h1>
         <p>
-		  is the name. Currently a CS student who plans to work in Japan after graduation. 
+		  is the name. Currently a Information Technology student who plans to work in Japan after graduation. 
         </p>
 		
       </Hero>
