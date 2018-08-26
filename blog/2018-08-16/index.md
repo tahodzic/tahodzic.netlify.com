@@ -11,13 +11,13 @@ category: "Software Development"
 同じようにエミュレーターにももちろん興味をもち、CHIP-8という古いゲーム機を開発しようと決めました。
 
 ## CHIP-8とは？
-CHIP-8（チップエイト）は、1970年代にJoseph Weisbeckerが開発したインタプリタ形式のプログラミング言語です。[COSMAC VIP](https://en.wikipedia.org/wiki/COSMAC_VIP "COSMAC VIP")と[Telmac 1800](https://en.wikipedia.org/wiki/Telmac_1800 "Telmac 1800")といったマイクロコンピュータに使われ、それらに実行するビデオゲームを開発しやすくするために作られました。
+CHIP-8（チップエイト）は、1970年代にJoseph Weisbeckerが開発したインタプリタ形式のプログラミング言語です。[__COSMAC VIP__](https://en.wikipedia.org/wiki/COSMAC_VIP "COSMAC VIP")と[__Telmac 1800__](https://en.wikipedia.org/wiki/Telmac_1800 "Telmac 1800")といったマイクロコンピュータに使われ、それらに実行するビデオゲームを開発しやすくするために作られました。
 前述の通り「ゲーム機」とは違いますが、本来は同名のCHIP-8仮想機械を利用して実行されましたから、現代はたまに「CHIP-8ゲーム機」を聞いたりします。
 
 
 ## さて、今日の核心に触れよう
 
-その[ブログ](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/ "Chip-8 Guide")の、素人向けのCHIP-8エミュレーション導入を読んだら、大体のやり方が分かってきました。そこで参照された[CHIP-8](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM "Chip-8 Technical Reference")マニュアルをみて、プランをし始めました。一般的にどのクラスが必要か、どういうテクノロジーを使えばいいかなど考えてから、すぐ開発開始でした。構造的にけっこう簡単なプロジェクトなんですが、実際に開発するのと全然違いますね。
+その[__ブログ__](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/ "Chip-8 Guide")の、素人向けのCHIP-8エミュレーション導入を読んだら、大体のやり方が分かってきました。そこで参照された[CHIP-8](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM "Chip-8 Technical Reference")マニュアルをみて、プランをし始めました。一般的にどのクラスが必要か、どういうテクノロジーを使えばいいかなど考えてから、すぐ開発開始でした。構造的にけっこう簡単なプロジェクトなんですが、実際に開発するのと全然違いますね。
 
 やり方としては以下のような手順で行けば良い:
 1. ゲームを読み込む
@@ -30,4 +30,4 @@ CHIP-8（チップエイト）は、1970年代にJoseph Weisbeckerが開発し�
 
 ま、結局めっちゃくちゃ楽しかったです！皆さん、CHIP-8エミュレーターを開発してみませんか。
 
-[Gitリポジトリへ](https://github.com/tahodzic/Chip-8-emulator "Chip-8 repo")
+[__Gitリポジトリへ__](https://github.com/tahodzic/Chip-8-emulator "Chip-8 repo")
