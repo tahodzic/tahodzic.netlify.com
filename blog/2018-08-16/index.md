@@ -17,12 +17,12 @@ CHIP-8（チップエイト）は、1970年代にJoseph Weisbeckerが開発し�
 
 ## さて、今日の核心に触れよう
 
-その[__ブログ__](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/ "Chip-8 Guide")の、素人向けのCHIP-8エミュレーション導入を読んだら、大体のやり方が分かってきました。そこで参照された[CHIP-8](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM "Chip-8 Technical Reference")マニュアルをみて、プランをし始めました。一般的にどのクラスが必要か、どういうテクノロジーを使えばいいかなど考えてから、すぐ開発開始でした。構造的にけっこう簡単なプロジェクトなんですが、実際に開発するのと全然違いますね。
+この[__ブログ__](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/ "Chip-8 Guide")の、素人向けのCHIP-8エミュレーション導入を読んだら、大体のやり方が分かってきました。そこで参照された[CHIP-8](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM "Chip-8 Technical Reference")マニュアルをみて、プランをし始めました。一般的にどのクラスが必要か、どういうテクノロジーを使えばいいかなど考えてから、すぐ開発開始でした。構造的にけっこう簡単なプロジェクトなんですが、実際に開発するのと全然違いますね。
 
-やり方としては以下のような手順で行けば良い:
-1. ゲームを読み込む
+単純なアルゴリズムとしては以下のような手順で行けば良いでしょうか:
+1. ゲームをメモリーに読み込む
 2. 命令を実行する
-3. 終わり
+3. 2に戻って繰り返す
 
 ###だが
 実際に開発するのはまた別の話ですね。
